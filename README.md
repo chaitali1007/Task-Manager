@@ -1,15 +1,18 @@
-# Task-Manager
-A simple, attractive task manager and progress tracker — add, edit, complete, delete tasks with progress visualization. Built with HTML, CSS, and JavaScript.
+# Task Manager — Progress Tracker 📋
+
+A simple and attractive **task management app** built with **HTML, CSS, and JavaScript only**.  
+It allows you to add, complete, and delete tasks with **dynamic categories** and a **progress tracker**.  
+Tasks are stored in **LocalStorage**, so they stay saved even after refreshing the page.
 
 ---
 
-## ✨ Features
-- ➕ Add new tasks  
-- 📝 Edit tasks  
-- ✔ Mark tasks as completed  
-- 🗑 Delete tasks  
-- 🔍 Filter by **All / Active / Completed**  
-- 📊 Progress visualization with **circle and bar charts**  
-- 💾 Saves data in **localStorage** (your tasks stay even after refreshing)  
-- 📱 Responsive design (works on desktop & mobile)  
+## 🚀 Features
+- ✅ Create unlimited **custom categories** (Work, Study, Personal, Shopping, etc.)
+- 📌 Add, complete, and delete tasks in each category
+- 📊 Dynamic **progress bar** showing completion percentage
+- 💾 Persistent data storage using **LocalStorage**
+- 🎨 Clean and responsive UI with hover effects
+
+---
+
 
