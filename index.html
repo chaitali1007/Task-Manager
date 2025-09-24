@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager — Progress Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Task Manager <span>📋</span></h1>
+
+    <!-- Category Tabs -->
+    <div class="tabs" id="tabs"></div>
+
+    <!-- Add Category -->
+    <div class="category-input">
+      <input type="text" id="categoryInput" placeholder="New category name...">
+      <button onclick="addCategory()">+ Add Category</button>
+    </div>
+
+    <!-- Input Section -->
+    <div class="task-input">
+      <input type="text" id="taskInput" placeholder="Enter a new task...">
+      <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+      <p>Progress</p>
+      <div class="progress-bar">
+        <div class="progress" id="progress"></div>
+      </div>
+      <span id="progressText">0% Completed</span>
+    </div>
+
+    <!-- Task List -->
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
